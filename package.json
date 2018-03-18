@@ -1,0 +1,23 @@
+{
+  "name": "slash-detector",
+  "version": "1.0.0",
+  "description": "Detects slashes and backslashes in strings",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Balou9/slash-detector.git"
+  },
+  "keywords": [
+    "slash",
+    "detector"
+  ],
+  "author": "Emmanuel O.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Balou9/slash-detector/issues"
+  },
+  "homepage": "https://github.com/Balou9/slash-detector#readme"
+}
