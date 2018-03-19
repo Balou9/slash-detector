@@ -31,8 +31,6 @@ var obj = slashDetector(astring)
 
 ### `slashDetector(str)`
 
-Do nothing.
-
 ***
 
 ## License
