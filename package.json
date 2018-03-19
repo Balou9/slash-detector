@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Balou9/slash-detector/issues"
   },
-  "homepage": "https://github.com/Balou9/slash-detector#readme"
+  "homepage": "https://github.com/Balou9/slash-detector#readme",
+  "devDependencies": {
+    "tape": "^4.9.0"
+  }
 }
