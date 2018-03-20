@@ -1,7 +1,6 @@
 var tape = require('tape')
 var slashmod = require('./index.js')
 var astr = 'wefiwejifljwie\\\\\///////\\\\/////'
-var number = 0
 
 tape('Detector function ', function (t) {
   t.ok(slashmod.slashDetector(astr), 'true', 'is ok')
