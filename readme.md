@@ -19,10 +19,10 @@ npm install --save slash-detector
 ## Usage
 
 ``` js
-var slashDetector = require('./index.js')
+var slashmod = require('./index.js')
 var astring = 'wefiwejifljwie\\\\\///////\\\\/////'
 
-var obj = slashDetector(astring)
+var obj = slashmod.slashDetector(astring)
 ```
 
 ***
