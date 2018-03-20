@@ -18,4 +18,6 @@ function slashDetector (str) {
   return obj
 }
 
-module.exports = slashDetector
+exports.slashDetector = slashDetector
+exports.strHasBackslashes = strHasBackslashes
+exports.strHasSlashes = strHasSlashes
