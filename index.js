@@ -1,23 +1,18 @@
 function strHasBackslashes (backSlasher) {
   return /\\/.test(backSlasher)
 }
-
 function strHasSlashes (slasher) {
     return /\//.test(slasher)
 }
 
-function slashDetector (str) {
-  var slash = []
-  var backslash = []
-    for (var i = 0; i < str.length; i++){
-      slash.push(strHasSlashes(str.charAt(i)))
-      backslash.push(strHasBackslashes(str.charAt(i)))
-    }
-  var obj = {slash: slash,
-             backslash: backslash}
-  return obj
+function iSlashes (str) {
+  return str.split('').map(function (char) {
+    if (char === '/') return true
+    else if (char === '\\') return false
+    else return null
+  })
 }
 
-exports.slashDetector = slashDetector
 exports.strHasBackslashes = strHasBackslashes
 exports.strHasSlashes = strHasSlashes
+exports.iSlashes = iSlashes

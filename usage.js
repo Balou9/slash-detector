@@ -1,6 +1,6 @@
 var slashmod = require('./index.js')
 var astring = 'wefiwejifljwie\\\\\///////\\\\/////'
 
-var obj = slashmod.slashDetector(astring)
+var det = slashmod.iSlashes(astring)
 
-console.log(obj.slash.length, obj.backslash.length, astring.length, obj)
+console.log(det)

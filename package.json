@@ -1,6 +1,6 @@
 {
   "name": "slash-detector",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Detects slashes and backslashes in strings",
   "main": "index.js",
   "scripts": {
